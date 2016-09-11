@@ -21,7 +21,7 @@ before_script:
 
 build:
   script:
-    - ./gradlew assembleDebug
+    - ./gradlew assembleDebug --info --stacktrace
   artifacts:
     paths:
     - app/build/outputs/
